@@ -20,6 +20,7 @@
 | 选题生成 | `topics.json` | 标题、角度、核心论点、素材来源、推荐优先级，等待人工确认 |
 | 文章生成 | `*_wechat.md` / `*_xhs.md` | 公众号长文与小红书版本；写作风格由 `prompts/` 注入 |
 | 配图生成 | `*.svg` / `*.png` | 纯代码 SVG，可转 PNG 并内联为 data URI，也可上传后替换为公网 URL |
+| 教程截图 | `shot_*.png` + 图注 | 截桌面/窗口/区域，自动脱敏，上传图床后插入文章，详见 [教程截图流程](docs/tutorial-screenshots.md) |
 | 排版预览 | `*_paste.html` / `preview.html` | 公众号可粘贴富文本 + 本地手机预览页，一键复制渲染后内容而非 HTML 源码 |
 | 通知提醒 | `data/inbox/` / 桌面 / 企业微信 | 产物就绪后主动提醒；默认使用零依赖文件收件箱 |
 | 发布准备 | `publish/*.json` | 只生成待发布包；线上发布需显式确认 token，仓库本身不实现无人值守群发 |
@@ -69,7 +70,11 @@ selfmedia-agent/
 ├── scripts/
 │   ├── illustrations.py         # 通用 SVG 配图生成
 │   ├── build_wechat_preview.py  # Markdown → 公众号内联样式 HTML + 预览页
-│   └── prepare_publish.py       # SVG → PNG → payload 准备
+│   ├── prepare_publish.py       # SVG → PNG → payload 准备
+│   ├── tutorial_capture.py      # 教程截屏 + 脱敏 + 图注（见 docs/）
+│   └── tutorial_publish.py      # 截图上传清单 + 文章图位 payload（见 docs/）
+├── docs/
+│   └── tutorial-screenshots.md  # 教程截图 → 公众号配图完整流程
 ├── run/
 │   ├── run_daily.bat            # Windows 定时启动示例
 │   └── install_task.ps1         # Windows 计划任务注册示例
