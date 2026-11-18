@@ -4,11 +4,15 @@
 
 一个可本地运行、人工可控的个人自媒体内容流水线。它把每日资讯采集、通勤口播稿、选题生成、公众号长文、小红书改写、配图生成、通知提醒和公众号草稿箱写入串成一条半自动链路。
 
+A locally runnable, human-in-the-loop pipeline for personal content creation. It chains daily news collection, commute audio scripts, topic generation, long-form WeChat articles, Xiaohongshu rewrites, illustration generation, notifications and WeChat draft-box writing into a semi-automated flow.
+
 核心设计原则不是「一键无人值守发布」，而是 **机器做重活，人做判断**：
 
-- 采集、去重、评分、起草、排版、画图由脚本完成；
-- 选题、定稿、发布三个环节保留人工确认门；
-- 线上发布默认关闭，仓库内不内置任何账号密钥或平台凭据。
+The core principle is not "one-click unattended publishing" but **machines do the heavy lifting, humans make the decisions**:
+
+- 采集、去重、评分、起草、排版、画图由脚本完成；/ Collection, dedup, ranking, drafting, layout and illustration are handled by scripts;
+- 选题、定稿、发布三个环节保留人工确认门；/ Topic selection, finalization and publishing keep human approval gates;
+- 线上发布默认关闭，仓库内不内置任何账号密钥或平台凭据。/ Online publishing is off by default and no account secrets or platform credentials are bundled.
 
 ---
 
