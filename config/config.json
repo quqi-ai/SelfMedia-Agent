@@ -1,0 +1,80 @@
+{
+  "timezone": "Asia/Shanghai",
+  "daily_time": "07:30",
+  "lookback_hours": 24,
+  "run_root": "data",
+
+  "llm": {
+    "mode": "mock",
+    "provider": "openai_compat",
+    "base_url": "https://api.openai.com/v1",
+    "api_key_env": "OPENAI_API_KEY",
+    "model": "gpt-4o-mini",
+    "temperature": 0.7,
+    "max_tokens": 3000,
+    "timeout": 60,
+    "note": "mode=mock 时使用内置样例生成器，无需 API Key；切换 live 前先设置环境变量"
+  },
+
+  "notify": {
+    "channels": ["inbox"],
+    "inbox_dir": "data/inbox",
+    "mail": {
+      "to": "",
+      "note": "Agent Mail 开通后，把通知改为真实邮件发送需用户显式确认"
+    },
+    "note": "默认只启用零依赖 inbox；wecom 需自行连接并配置 wecom-cli；desktop 需 Windows；mail 先生成草稿不自动发送"
+  },
+
+  "audio": {
+    "enabled": false,
+    "provider": "reserved",
+    "output_dir": "audio",
+    "format": "mp3",
+    "voice": "zh-CN-commute-female",
+    "note": "仅预留接口，默认只产出口播稿文本和音频元数据，不自动合成"
+  },
+
+  "publish": {
+    "enabled": false,
+    "require_confirm": true,
+    "targets": ["wechat", "xiaohongshu"],
+    "note": "只生成待发布包，需人工显式 CONFIRM 才允许 prepare/publish，绝不无人值守发布"
+  },
+
+  "gates": {
+    "require_topic_approval": true,
+    "require_draft_approval": true,
+    "require_publish_approval": true
+  },
+
+  "ranking": {
+    "source_weight": {
+      "official": 1.5,
+      "major_media": 1.2,
+      "community": 1.0,
+      "blog": 0.9
+    },
+    "keyword_boost": {
+      "agent": 1.2,
+      "智能体": 1.2,
+      "大模型": 1.0,
+      "开源": 0.8,
+      "发布": 0.8,
+      "benchmark": 0.6,
+      "融资": 0.5,
+      "mcp": 0.6,
+      "多模态": 0.5
+    },
+    "recency_half_life_hours": 12,
+    "base_score": 1.0
+  },
+
+  "dedup": {
+    "title_similarity_threshold": 0.86,
+    "drop_tracking_params": [
+      "utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content",
+      "spm", "from", "ref", "share_token", "src"
+    ]
+  }
+}

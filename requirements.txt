@@ -1,0 +1,7 @@
+# 核心运行：Python 3.10+ 标准库即可（urllib/xml/json/dataclass/argparse）
+# 可选增强（真实联网采集 + LLM）：
+requests>=2.31.0
+feedparser>=6.0.10
+PyYAML>=6.0.1
+apscheduler>=3.10.4
+python-dotenv>=1.0.0

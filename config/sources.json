@@ -1,0 +1,37 @@
+{
+  "rss": [
+    {"name": "机器之心", "url": "https://www.jiqizhixin.com/rss", "category": "ai", "weight": 1.2, "enabled": true},
+    {"name": "量子位", "url": "https://www.qbitai.com/feed", "category": "ai", "weight": 1.2, "enabled": true},
+    {"name": "新智元", "url": "https://www.aibase.com/zh/news/rss", "category": "ai", "weight": 1.0, "enabled": false},
+    {"name": "36氪", "url": "https://36kr.com/feed", "category": "tech", "weight": 1.0, "enabled": false},
+    {"name": "Hacker News AI", "url": "https://hnrss.org/newest?q=AI&points=50", "category": "agent", "weight": 1.0, "enabled": true},
+    {"name": "MIT Tech Review AI", "url": "https://www.technologyreview.com/feed/", "category": "tech", "weight": 1.1, "enabled": false}
+  ],
+  "web_search": {
+    "enabled": false,
+    "endpoint": "",
+    "api_key_env": "SEARCH_API_KEY",
+    "queries": [
+      "AI Agent 智能体 技术 进展 过去24小时",
+      "大模型 发布 今天 科技新闻"
+    ],
+    "max_results_per_query": 10,
+    "note": "可接 Serper/Tavily/Bing 等；未配置时采集阶段会跳过并记 warning"
+  },
+  "wechat": {
+    "enabled": false,
+    "endpoints": [],
+    "accounts": ["数字生命卡兹克", "花叔"],
+    "note": "公众号无公开聚合 API。可配置 wechat2rss/自建桥接 RSS，或把人工整理的素材放入 fixtures/wechat_manual.json；仅供参考选题与素材来源，不复制原文"
+  },
+  "hot_questions": {
+    "enabled": true,
+    "endpoint": "",
+    "sources": ["知乎", "微博", "小红书", "公众号"],
+    "fallback_fixture": "fixtures/hot_questions_sample.json"
+  },
+  "fixtures": {
+    "news": "fixtures/news_sample.json",
+    "topics": "fixtures/topics_sample.json"
+  }
+}

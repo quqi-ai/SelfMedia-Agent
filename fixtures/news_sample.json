@@ -1,0 +1,82 @@
+[
+  {
+    "source": "机器之心",
+    "title": "智谱发布新一代开源 Agent 模型，工具调用成功率提升明显",
+    "url": "https://www.jiqizhixin.com/articles/2026-11-16-agent-model",
+    "published_at": "2026-11-16T09:20:00+08:00",
+    "hours_ago": 5,
+    "summary": "新模型在多项 Agent benchmark 上刷新成绩，重点提升了多步工具调用与长程任务规划能力，权重将分批开放。",
+    "category": "AI",
+    "tags": ["开源", "Agent", "大模型"]
+  },
+  {
+    "source": "量子位",
+    "title": "开源 Agent 模型发布：工具调用成功率提升，权重分批开放",
+    "url": "https://www.qbitai.com/2026/11/agent-open-model?utm_source=rss",
+    "published_at": "2026-11-16T10:05:00+08:00",
+    "hours_ago": 4.5,
+    "summary": "同一事件的另一家报道，补充了评测细节和社区早期反馈，内容与上条高度重复。",
+    "category": "AI",
+    "tags": ["Agent", "开源"]
+  },
+  {
+    "source": "Hacker News",
+    "title": "Show HN: I ran three agent frameworks on the same task, results surprised me",
+    "url": "https://news.ycombinator.com/item?id=40000001",
+    "published_at": "2026-11-16T18:30:00+08:00",
+    "hours_ago": 12,
+    "summary": "作者用同一个真实任务对比三个主流 Agent 框架，发现任务拆解方式比框架本身更影响最终结果，讨论热烈。",
+    "category": "Agent",
+    "tags": ["Agent", "框架", "实测"]
+  },
+  {
+    "source": "机器之心",
+    "title": "MCP 生态再扩容：多家厂商宣布支持统一工具接口",
+    "url": "https://www.jiqizhixin.com/articles/2026-11-16-mcp",
+    "published_at": "2026-11-16T14:10:00+08:00",
+    "hours_ago": 8,
+    "summary": "MCP 作为工具调用的事实标准获得更多支持，解决 Agent 与外部工具的接口碎片化问题。",
+    "category": "Agent",
+    "tags": ["MCP", "Agent"]
+  },
+  {
+    "source": "量子位",
+    "title": "多模态大模型上新：长视频理解成本下降 40%",
+    "url": "https://www.qbitai.com/2026/11/multimodal-video",
+    "published_at": "2026-11-16T20:00:00+08:00",
+    "hours_ago": 10,
+    "summary": "新版本在长视频理解任务上显著降低成本，_api 定价同步下调，适合内容创作者批量处理素材。",
+    "category": "AI",
+    "tags": ["多模态", "大模型"]
+  },
+  {
+    "source": "36氪",
+    "title": "AI 应用創業公司完成新一轮融资，主打企业自动化工作流",
+    "url": "https://36kr.com/p/3000000001",
+    "published_at": "2026-11-16T11:30:00+08:00",
+    "hours_ago": 15,
+    "summary": "融资消息，方向是企业级 Agent 工作流自动化，反映资本对落地的关注。",
+    "category": "科技",
+    "tags": ["融资", "Agent"]
+  },
+  {
+    "source": "Hacker News",
+    "title": "A practical guide to writing better prompts for coding agents",
+    "url": "https://news.ycombinator.com/item?id=40000002",
+    "published_at": "2026-11-17T01:00:00+08:00",
+    "hours_ago": 6,
+    "summary": "一篇实操指南，讲如何给编码 Agent 写更清晰的任务描述，社区评价较高。",
+    "category": "Agent",
+    "tags": ["Agent", "教程"]
+  },
+  {
+    "source": "微信公众号",
+    "title": "当模型开始自己规划任务，我们该怎么重新理解「工具」",
+    "url": "https://mp.weixin.qq.com/s/sample-agent-thinking",
+    "published_at": "2026-11-16T22:00:00+08:00",
+    "hours_ago": 9,
+    "summary": "公众号文章，从认知角度讨论 Agent 的「工具」定位变化，适合作为选题灵感，勿复制原文。",
+    "category": "热点",
+    "tags": ["公众号", "素材来源"]
+  }
+]

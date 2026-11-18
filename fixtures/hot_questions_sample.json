@@ -1,0 +1,6 @@
+[
+  {"source": "知乎", "question": "为什么最近大家突然都在聊 MCP，它到底解决了什么问题？", "url": "https://www.zhihu.com/question/mcp", "heat": 8.6, "note": "高热度，认知门槛高，适合做通俗解读"},
+  {"source": "微博", "question": "Agent 会不会取代程序员的工作？", "url": "https://weibo.com/hot/agent", "heat": 9.1, "note": "情绪型话题，共鸣强但同质化严重"},
+  {"source": "小红书", "question": "有哪些真正好用的 AI 效率工具推荐？", "url": "https://www.xiaohongshu.com/search/ai-tools", "heat": 7.8, "note": "工具盘点型，适合小红书版本"},
+  {"source": "公众号", "question": "普通人如何用 Agent 提高自己的生产力？", "url": "https://mp.weixin.qq.com/s/sample-productivity", "heat": 7.2, "note": "方法论型，可结合个人经历"}
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "account": "数字生命卡兹克",
+    "title": "当模型开始自己规划任务，我们该怎么重新理解「工具」",
+    "url": "https://mp.weixin.qq.com/s/sample-agent-thinking",
+    "published_at": "2026-11-16T22:00:00+08:00",
+    "note": "讨论 Agent 从工具到协作者的定位变化，仅作选题灵感与素材来源参考，写作时不复制原文"
+  },
+  {
+    "account": "花叔",
+    "title": "用 AI 把想法做成产品：一些关于排版和表达的经验",
+    "url": "https://mp.weixin.qq.com/s/sample-format",
+    "published_at": "2026-11-16T20:30:00+08:00",
+    "note": "关于排版与表达的经验，用于选题参考；排版规则另见 prompts/04_wechat_format.md"
+  }
+]

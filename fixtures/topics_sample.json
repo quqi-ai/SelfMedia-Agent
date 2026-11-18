@@ -1,0 +1,20 @@
+[
+  {
+    "id": "t-fixture-01",
+    "title": "Agent 开始自己干活之后，我对「工具」这个词产生了怀疑",
+    "angle": "现象解读型：从三个同日更新切入，聊工具到协作者的定位变化",
+    "core_thesis": "真正的变化不是模型更聪明，而是它开始能独立闭环一段工作流",
+    "material_sources": ["机器之心开源 Agent 模型", "MCP 生态扩容", "公众号素材"],
+    "priority": "S",
+    "value_reason": "HKR 三项兼备，适合作为本周第一篇"
+  },
+  {
+    "id": "t-fixture-02",
+    "title": "我把三个 Agent 框架拉到一起跑了一遍，结果有点意外",
+    "angle": "调查实验型：亲自下场对比，降低理解门槛",
+    "core_thesis": "框架差异没那么重要，真正决定效果的是任务拆解方式",
+    "material_sources": ["Hacker News 实测帖"],
+    "priority": "A",
+    "value_reason": "活人感强，符合「亲自下场」写作基因"
+  }
+]

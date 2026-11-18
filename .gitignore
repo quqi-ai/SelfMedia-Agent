@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# 运行产物（含本机路径、审批记录、通知历史）
+data/
+output/
+
+# 本地环境与密钥
+.env
+.env.*
+*.local.json
+*.local.yaml
+*.local.yml
+
+# 日志
+*.log
+
+# 编辑器 / 系统
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# WorkBuddy 本地记忆
+.workbuddy/
